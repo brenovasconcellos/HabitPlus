@@ -20,28 +20,43 @@ class SignInViewModel: ObservableObject {
     @Published var uiState: SignInUIState = .none
     
     init() {
-        cancellable = publisher.sink { value in
-            print("Usuário criado! goToHome: \(value)")
-            
-            if value {
-                self.uiState = .goToHomeScreen
-            }
+      cancellable = publisher.sink { value in
+        print("usuário criado! goToHome: \(value)")
+        
+        if value {
+          self.uiState = .goToHomeScreen
         }
+      }
     }
     
     deinit {
-        cancellable?.cancel()
+      cancellable?.cancel()
     }
     
     func login() {
-        self.uiState = .loading
+      self.uiState = .loading
+      
+      WebService.login(request: SignInRequest(email: email,
+                                              password: password)) { (successResponse, errorResponse) in
         
-        DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
-            self.uiState = .goToHomeScreen
+        if let error = errorResponse {
+          DispatchQueue.main.async {
+            // Main Thread
+              self.uiState = .error(error.detail.message)
+          }
         }
+        
+        if let success = successResponse {
+          DispatchQueue.main.async {
+            print(success)
+            self.uiState = .goToHomeScreen
+          }
+        }
+        
+      }
     }
     
-}
+  }
 
 extension SignInViewModel {
     func homeView() -> some View {

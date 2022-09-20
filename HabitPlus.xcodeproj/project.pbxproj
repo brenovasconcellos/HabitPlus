@@ -12,12 +12,19 @@
 		EF10EE9528BCCBF8004DE5C2 /* SignUpViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF10EE9428BCCBF8004DE5C2 /* SignUpViewRouter.swift */; };
 		EF110A1928BC589900D16CEC /* Gender.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF110A1828BC589900D16CEC /* Gender.swift */; };
 		EF36165A28C209BC00028DE2 /* LoadingButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF36165928C209BC00028DE2 /* LoadingButtonView.swift */; };
+		EF4025E428CFF5FC0045C268 /* SignUpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4025E328CFF5FC0045C268 /* SignUpRequest.swift */; };
 		EF581D7728B5A29C003C854B /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF581D7628B5A29C003C854B /* SignInView.swift */; };
 		EF581D7B28B5A350003C854B /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF581D7A28B5A350003C854B /* SignInViewModel.swift */; };
 		EF581D7D28B5A4A0003C854B /* SplashViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF581D7C28B5A4A0003C854B /* SplashViewRouter.swift */; };
 		EF5B0EC728B808970080895C /* SignInUIState.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5B0EC628B808970080895C /* SignInUIState.swift */; };
+		EF6118E628D9413B00734274 /* SignInErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6118E528D9413B00734274 /* SignInErrorResponse.swift */; };
 		EF66CDC328B4E42800F7F5EA /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF66CDC228B4E42800F7F5EA /* SplashViewModel.swift */; };
+		EF686A3E28D60E6B00F6930B /* SignInRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF686A3D28D60E6A00F6930B /* SignInRequest.swift */; };
+		EF686A4028D60F3B00F6930B /* SignInResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF686A3F28D60F3B00F6930B /* SignInResponse.swift */; };
+		EF686A4228D60FC200F6930B /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF686A4128D60FC200F6930B /* WebService.swift */; };
 		EF75964928BEF72A00A0A6FD /* EditTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF75964828BEF72A00A0A6FD /* EditTextView.swift */; };
+		EF75FE7028D1475100CECF07 /* SignUpResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF75FE6F28D1475100CECF07 /* SignUpResponse.swift */; };
+		EF75FE7228D14AFF00CECF07 /* ErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF75FE7128D14AFF00CECF07 /* ErrorResponse.swift */; };
 		EF8F13DE28B9976E00A9AF39 /* SignInViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8F13DD28B9976E00A9AF39 /* SignInViewRouter.swift */; };
 		EF8F13E628B9986E00A9AF39 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8F13E528B9986E00A9AF39 /* HomeView.swift */; };
 		EF8F13E828B9988A00A9AF39 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8F13E728B9988A00A9AF39 /* HomeViewModel.swift */; };
@@ -37,12 +44,19 @@
 		EF10EE9428BCCBF8004DE5C2 /* SignUpViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewRouter.swift; sourceTree = "<group>"; };
 		EF110A1828BC589900D16CEC /* Gender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gender.swift; sourceTree = "<group>"; };
 		EF36165928C209BC00028DE2 /* LoadingButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingButtonView.swift; sourceTree = "<group>"; };
+		EF4025E328CFF5FC0045C268 /* SignUpRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpRequest.swift; sourceTree = "<group>"; };
 		EF581D7628B5A29C003C854B /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		EF581D7A28B5A350003C854B /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
 		EF581D7C28B5A4A0003C854B /* SplashViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewRouter.swift; sourceTree = "<group>"; };
 		EF5B0EC628B808970080895C /* SignInUIState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInUIState.swift; sourceTree = "<group>"; };
+		EF6118E528D9413B00734274 /* SignInErrorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInErrorResponse.swift; sourceTree = "<group>"; };
 		EF66CDC228B4E42800F7F5EA /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
+		EF686A3D28D60E6A00F6930B /* SignInRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInRequest.swift; sourceTree = "<group>"; };
+		EF686A3F28D60F3B00F6930B /* SignInResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInResponse.swift; sourceTree = "<group>"; };
+		EF686A4128D60FC200F6930B /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		EF75964828BEF72A00A0A6FD /* EditTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTextView.swift; sourceTree = "<group>"; };
+		EF75FE6F28D1475100CECF07 /* SignUpResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpResponse.swift; sourceTree = "<group>"; };
+		EF75FE7128D14AFF00CECF07 /* ErrorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorResponse.swift; sourceTree = "<group>"; };
 		EF8F13DD28B9976E00A9AF39 /* SignInViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewRouter.swift; sourceTree = "<group>"; };
 		EF8F13E528B9986E00A9AF39 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		EF8F13E728B9988A00A9AF39 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
@@ -71,6 +85,7 @@
 		EF110A1628BC585E00D16CEC /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				EF3F8DBC28CE2097000042C4 /* Network */,
 				EFB349C928C18EE3000632DB /* Lang */,
 				EF75964728BEF70000A0A6FD /* View */,
 				EF110A1728BC588500D16CEC /* Model */,
@@ -82,8 +97,17 @@
 			isa = PBXGroup;
 			children = (
 				EF110A1828BC589900D16CEC /* Gender.swift */,
+				EF75FE7128D14AFF00CECF07 /* ErrorResponse.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		EF3F8DBC28CE2097000042C4 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				EF686A4128D60FC200F6930B /* WebService.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 		EF581D7128B5A1B9003C854B /* SignIn */ = {
@@ -100,6 +124,9 @@
 			isa = PBXGroup;
 			children = (
 				EF5B0EC628B808970080895C /* SignInUIState.swift */,
+				EF686A3D28D60E6A00F6930B /* SignInRequest.swift */,
+				EF686A3F28D60F3B00F6930B /* SignInResponse.swift */,
+				EF6118E528D9413B00734274 /* SignInErrorResponse.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -229,6 +256,8 @@
 			isa = PBXGroup;
 			children = (
 				EF10EE9028BCC97E004DE5C2 /* SignUpUIState.swift */,
+				EF4025E328CFF5FC0045C268 /* SignUpRequest.swift */,
+				EF75FE6F28D1475100CECF07 /* SignUpResponse.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -359,11 +388,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF75FE7028D1475100CECF07 /* SignUpResponse.swift in Sources */,
 				EF9AC7C428AED203003BD507 /* SplashUIState.swift in Sources */,
 				EF8F13E828B9988A00A9AF39 /* HomeViewModel.swift in Sources */,
 				EFE408C728A69F8A00BDD763 /* HabitPlusApp.swift in Sources */,
 				EF36165A28C209BC00028DE2 /* LoadingButtonView.swift in Sources */,
+				EF6118E628D9413B00734274 /* SignInErrorResponse.swift in Sources */,
 				EFB349CB28C18F0F000632DB /* String+Extension.swift in Sources */,
+				EF686A3E28D60E6B00F6930B /* SignInRequest.swift in Sources */,
 				EF10EE9528BCCBF8004DE5C2 /* SignUpViewRouter.swift in Sources */,
 				EF581D7B28B5A350003C854B /* SignInViewModel.swift in Sources */,
 				EFBF121428BC3693004F0BD6 /* SignUpView.swift in Sources */,
@@ -372,12 +404,16 @@
 				EF10EE9328BCCA32004DE5C2 /* SignUpViewModel.swift in Sources */,
 				EF10EE9128BCC97E004DE5C2 /* SignUpUIState.swift in Sources */,
 				EF9AC7C228AED0AE003BD507 /* SplashView.swift in Sources */,
+				EF75FE7228D14AFF00CECF07 /* ErrorResponse.swift in Sources */,
 				EF110A1928BC589900D16CEC /* Gender.swift in Sources */,
+				EF686A4228D60FC200F6930B /* WebService.swift in Sources */,
 				EF66CDC328B4E42800F7F5EA /* SplashViewModel.swift in Sources */,
 				EF5B0EC728B808970080895C /* SignInUIState.swift in Sources */,
 				EFB2867528BFB30B0097FA36 /* CustomTextFieldStyle.swift in Sources */,
 				EF75964928BEF72A00A0A6FD /* EditTextView.swift in Sources */,
+				EF4025E428CFF5FC0045C268 /* SignUpRequest.swift in Sources */,
 				EF581D7D28B5A4A0003C854B /* SplashViewRouter.swift in Sources */,
+				EF686A4028D60F3B00F6930B /* SignInResponse.swift in Sources */,
 				EF581D7728B5A29C003C854B /* SignInView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
